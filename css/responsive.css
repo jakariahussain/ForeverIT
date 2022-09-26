@@ -1,0 +1,315 @@
+@media (min-width:320px) and (max-width:576px){
+    .career_table .table td, .table th {
+        display: block;
+        padding: 12px 30px;
+    }
+    .career_details_wrap {
+        display: block;
+    }
+    .services-wrapp .single-services-items-box{
+        border-right: 0;
+        box-shadow: 0 2px 5px 0 rgb(87 82 82 / 9%);
+        padding: 20px;
+    }
+    section.banner-area {
+        padding: 40px 0;
+    }
+    .services-wrapp-area {
+        padding: 10px 20px;
+    }
+    .header-wrapp .logo {
+        width: 60%;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -44px;
+        right: 10px !important;
+    }
+    a.meanmenu-reveal.meanclose {
+        top: -44px;
+        color: #000;
+    }
+    .mean-container .mean-bar {
+        background: none;
+        padding: 0;
+        height: 0;
+    }
+    .file-upload-input {
+        width: auto !important;
+        margin-right: 0 !important;
+    }
+
+
+    .video-wrapp {
+        margin-top: -8px;
+    }
+    .single-student-profile {
+        padding: 30px 20px !important;
+        display: block !important;
+    }
+    .student-profile {
+        width: 100% !important;
+    }
+}
+/* small device (320px) => (576px) */
+@media (min-width:320px) and (max-width:991px){
+    .header-top {
+        display: none;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -44px;
+        right: 10px !important;
+    }
+    a.meanmenu-reveal.meanclose {
+        top: -44px;
+        color: #000;
+    }
+    .mean-container .mean-bar {
+        background: none;
+        padding: 0;
+        height: 0;
+    }
+    .header-topbar-wrap {
+        display: block !important;
+    }
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-nav {
+        padding-top: 25px;
+    }
+    .event-article ul li {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .about-thumb {
+        height: 150px;
+    }
+    .privacy ul {
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+    }
+    .header-contact ul{
+        display: block !important;
+    }
+    .header-contact ul li{
+        margin-bottom: 5px;
+        border-right: 0;
+    }
+    .team-section .nav-pills .nav-link {
+        font-size: 13px;
+    }
+    .team-profile {
+        height: 320px;
+    }
+    li.breadcrumb-item {
+        font-size: 28px;
+    }
+    .course-details-content {
+        padding: 0 10px 0 10px;
+        margin-top: 30px;
+    }
+    .course-details-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .course-details-content p {
+        font-size: 14px;
+    }
+    .chose-us-thumb {
+        margin-top: 10px;
+    }
+    .btn.btn-primary.btn-custom {
+        padding: 15px 20px;
+        border-radius: 35px;
+        font-size: 12px;
+    }
+    .filters ul {
+        flex-wrap: wrap;
+    }
+    
+    .order_form_control {
+        width: 100% !important;
+    }
+    .filters ul li {
+        margin-bottom: 10px;
+    }
+    .header-contact ul li:last-child {
+        padding-left: 0px;
+    }
+    .navbar-light .navbar-brand {
+        width: 40%;
+    }
+
+    .slider-content p {
+        padding: 10px 0px 20px 0;
+    }
+    .slider-content h2 {
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .slider-active{
+        height: 500px;
+    }
+
+    section.video-area::before {
+        width: 100%;
+    }
+
+    section.video-area::after {
+        width: 100%;
+    }
+    .event-article h3 {
+        font-size: 20px;
+    }
+    .event-article p {
+        font-size: 14px;
+    }
+    .video-content {
+        background: #fff;
+        padding: 20px 0;
+        margin-top: 34px;
+    }
+    .video-article p {
+        padding: 20px 0 30px 10px;
+    }
+    .more-info a {
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+    }
+    .counter-wrapp {
+        margin-bottom: 30px;
+    }
+    .single-student-profile {
+        padding: 0 20px;
+    }
+    form#contact-field button {
+        width: 50%;
+    margin-left: 5px;
+    padding: 12px 0 !important;
+    }
+    .footer-links-wrapp {
+        display: block !important;
+    }
+    .footer-quick {
+        margin-top: 20px;
+    }
+    .section-title h2 {
+        font-size: 26px;
+    }
+    .primary-menu ul li {
+        margin-right: 0;
+        padding-bottom: 12px;
+    }
+    .breadcurb {
+        height: 150px;
+    }
+    .about-content p {
+        font-size: 15px;
+    }
+
+}
+
+/* extra fixed */
+@media (min-width:385px) and (max-width:576px){
+    .header-contact ul {
+        display: flex !important;
+    }
+    .slider-content a:last-child {
+        margin-top: 0;
+    }
+    .working-thumb img {
+        width: 20% !important;
+    }
+    .team-profile {
+        height: 390px !important;
+    }
+    .filters ul li {
+        margin-right: 11px;
+        padding: 10px 14px;
+    }
+}
+
+@media (min-width:435px) and (max-width:576px){
+    .nav-pills .nav-link {
+        font-size: 11px;
+    }
+    .team-profile {
+        height: 490px !important;
+    }
+}
+
+/* small device responsive mode */
+@media (min-width:576px) and (max-width:768px){
+    .counter-wrapp {
+        margin-bottom: 0;
+    }
+    .header-wrapp .logo {
+        width: 20%;
+    }
+    .filters ul li {
+        margin-right: 11px;
+        padding: 10px 14px;
+    }
+    .table-responsive {
+        display: table;
+    }
+    .course-details-content a {
+        margin-bottom: 10px;
+    }
+}
+
+/* medium devices responsive mode  */
+@media (min-width:768px) and (max-width:991px){
+    .slider-content a:last-child {
+        margin-top: 0;
+    }
+    .privacy ul {
+        justify-content: flex-start !important;
+        margin-top: 0px !important;
+    }
+    .navbar-light .navbar-brand {
+        width: 23%;
+    }
+    .footer-links-wrapp {
+        display: flex !important;
+    }
+    .about-thumb {
+        height: 250px;
+    }
+    .filters ul li {
+        margin-right: 11px;
+        padding: 10px 14px;
+    }
+    .table-responsive {
+        display: table;
+    }
+}
+
+/* large device responsive */
+@media (min-width:991px) and (max-width:1200px){
+    form#contact-field button {
+        right: 0;
+    }
+    .nav-pills .nav-link {
+        font-size: 13px;
+    }
+    .filters ul li {
+        margin-right: 10px;
+        padding: 10px 10px;
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+    .table-responsive {
+        display: table;
+    }
+    form#contact-field button {
+        width: 50%;
+        margin-left: 7px;
+        padding: 9px 0 !important;
+    }
+}
+@media (min-width:1200px) and (max-width:100000px){
+    .table-responsive {
+        display: table;
+    }
+}
